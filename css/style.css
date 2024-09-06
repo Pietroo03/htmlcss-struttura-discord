@@ -4,3 +4,49 @@
     box-sizing: border-box;
 }
 
+/* #region debug */
+
+.debug header{
+    background-color: red;
+    height: 50px;
+}
+
+.debug main{
+    background-color: blue;
+    height: 300px;
+}
+
+.debug footer{
+    background-color: yellow;
+    height: 100px;
+}
+
+/* #endregion debug */
+
+
+/* #region container-flex */
+
+.container-flex{
+    display: flex;
+    justify-content: center; 
+}
+
+/* #endregion container-flex */
+
+.logo, .login, .link{
+    border: 1px dashed black; 
+    background-color: green; 
+}
+
+.logo, .login{
+    width: 15%;
+}
+
+.link{
+    width: 30%;
+    text-align: center;
+}
+
+.login{
+    text-align: end;
+}
