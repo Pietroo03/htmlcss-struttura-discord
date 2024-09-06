@@ -8,7 +8,6 @@
 
 .debug header{
     background-color: red;
-    height: 50px;
 }
 
 .debug main{
@@ -29,6 +28,8 @@
 .container-flex{
     display: flex;
     justify-content: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* #endregion container-flex */
