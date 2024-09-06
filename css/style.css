@@ -64,7 +64,7 @@
 
 /* #endregion header-classes */
 
-/* #region main-classes */
+/* #region main-classes */ 
 
 .main{
     background-color: pink;
@@ -96,3 +96,30 @@
 }
 
 /* #endregion main-classes */
+
+/* #region footer-classes */
+
+.container-column{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.main-column, .secondary-column{
+    border: 1px dashed black;
+    height: 600px;
+}
+
+.main-column{
+    width: 20%;
+    background-color: pink;
+
+}
+
+.secondary-column{
+    background-color: rgb(57, 100, 57);
+    width: 10%;
+}
+
+/* #endregion footer-classes */
