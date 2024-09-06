@@ -15,7 +15,7 @@
 }
 
 .debug footer{
-    background-color: yellow;
+    background-color: black;
 }
 
 /* #endregion debug */
@@ -39,6 +39,25 @@
 
 .grey-bg{
     background-color: lightgray;
+}
+
+.container-column{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    background-color: black;
+}
+
+.container-buttons-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: aquamarine;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* #endregion container-flex */
@@ -95,17 +114,6 @@
     height: 700px;
 }
 
-/* #endregion main-classes */
-
-/* #region footer-classes */
-
-.container-column{
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    justify-content: center;
-}
-
 .main-column, .secondary-column{
     border: 1px dashed black;
     height: 600px;
@@ -120,6 +128,21 @@
 .secondary-column{
     background-color: rgb(57, 100, 57);
     width: 10%;
+}
+
+/* #endregion main-classes */
+
+/* #region footer-classes */
+
+.logo-footer, .button{
+    border: 1px dashed black;
+    background-color: rgb(229, 217, 219);
+}
+
+footer{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 10px;
 }
 
 /* #endregion footer-classes */
