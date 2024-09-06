@@ -12,12 +12,10 @@
 
 .debug main{
     background-color: blue;
-    height: 300px;
 }
 
 .debug footer{
     background-color: yellow;
-    height: 100px;
 }
 
 /* #endregion debug */
@@ -28,12 +26,16 @@
 .container-flex{
     display: flex;
     justify-content: center; 
+}
+
+.nav{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* #endregion container-flex */
 
+/* #region header-classes */
 .logo, .login, .link{
     border: 1px dashed black; 
     background-color: green; 
@@ -51,3 +53,18 @@
 .login{
     text-align: end;
 }
+
+/* #endregion header-classes */
+
+/* #region main-classes */
+
+.first-main{
+    background-color: pink;
+    width: 50%;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* #endregion main-classes */
