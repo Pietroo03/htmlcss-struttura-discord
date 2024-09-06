@@ -7,11 +7,11 @@
 /* #region debug */
 
 .debug header{
-    background-color: red;
+    background-color: lightblue;
 }
 
 .debug main{
-    background-color: blue;
+    
 }
 
 .debug footer{
@@ -33,12 +33,16 @@
     padding-bottom: 10px;
 }
 
+.blue-bg{
+    background-color: blue;
+}
+
 /* #endregion container-flex */
 
 /* #region header-classes */
 .logo, .login, .link{
     border: 1px dashed black; 
-    background-color: green; 
+    background-color:rgb(52, 192, 52); 
 }
 
 .logo, .login{
@@ -58,13 +62,27 @@
 
 /* #region main-classes */
 
-.first-main{
+.main{
     background-color: pink;
     width: 50%;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 
+}
+
+.bigger{
+    background-color: lightskyblue;
+    width: 40%;
+}
+
+.smaller{
+    background-color: lightgray;
+    width: 20%;
+}
+
+.square{
+    height: 500px;
+    border: 1px dashed black;
+    margin-top: 30px;
+    margin-bottom: 30px;  
 }
 
 /* #endregion main-classes */
