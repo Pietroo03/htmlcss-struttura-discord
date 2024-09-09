@@ -113,6 +113,21 @@
     height: 700px;
 }
 
+/* #endregion main-classes */
+
+/* #region footer-classes */
+
+.logo-footer, .button{
+    border: 1px dashed black;
+    background-color: rgb(229, 217, 219);
+}
+
+footer{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 10px;
+}
+
 .main-column, .secondary-column{
     border: 1px dashed black;
     height: 500px;
@@ -127,21 +142,6 @@
 .secondary-column{
     background-color: rgb(57, 100, 57);
     width: 10%;
-}
-
-/* #endregion main-classes */
-
-/* #region footer-classes */
-
-.logo-footer, .button{
-    border: 1px dashed black;
-    background-color: rgb(229, 217, 219);
-}
-
-footer{
-    margin-top: 1px;
-    margin-bottom: 1px;
-    padding-top: 10px;
 }
 
 /* #endregion footer-classes */
